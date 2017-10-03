@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/constants.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/CMakeLists.txt">

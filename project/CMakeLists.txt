@@ -3,5 +3,5 @@ project(project)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES main.c constants.h main.h)
 add_executable(project ${SOURCE_FILES})
