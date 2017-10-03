@@ -1,0 +1,97 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[dutch]{babel}           % Nederlands
+\usepackage[latin1]{inputenc}       % speciale karakters
+
+\usepackage{palatino} % font
+\usepackage{graphicx} % figuren
+
+\usepackage[hyperfootnotes=false]{hyperref} % PDF bookmarks
+
+\renewenvironment{quote}                            % kleinere citaten
+               {\list{}{\rightmargin\leftmargin}    %
+                \item[]\small}                      %
+               {\endlist}                           %
+
+\setlength{\parindent}{0pt}         % indenteringen met witlijn
+\setlength{\parskip}{1em}           %
+
+\setlength{\hoffset}{-1cm}          % kleinere marges
+\addtolength{\textwidth}{2cm}
+\setlength{\voffset}{-1cm}
+\addtolength{\textheight}{2cm}
+
+\makeatletter                               % een witlijn tussen
+\renewcommand{\footnoterule}{               % voetnoten en tekst
+  \vspace{1em}                              %
+  \kern-3\p@\hrule\@width.4\columnwidth     %
+  \kern2.6\p@}                              %
+\makeatother                                %
+                                            %
+                               
+\usepackage[stable]{footmisc}               % pakket voor bep. voetnoten. (voetnoten in titels)
+
+\usepackage{graphicx}   %afbeeldingen
+
+\newcommand{\nroman}{\renewcommand{\thepage}{\roman{page}}\setcounter{page}{0}}     % romeinse nummers
+\newcommand{\narabic}{\renewcommand{\thepage}{\arabic{page}}\setcounter{page}{1}}   % arabische nummers
+
+
+\bibliographystyle{plain}
+\usepackage[nottoc,section]{tocbibind}     % bibliografie in TOC, sectiegrootte
+\setcounter{tocdepth}{1}                   % diepte van de TOC
+
+
+
+%%% TITEL EN AUTEUR %%%
+
+\renewcommand{\title}{%
+			Huffman compressie \\
+			\large Project Algoritmen en Datastructuren III}
+\renewcommand{\author}{
+\textbf{\large Brent Van Wynsberge} \\
+\small 3$^e$ bachelor Informatica, Universiteit Gent \\
+\small Algoritmen en Datastructuren III \\
+\small Stamnummer: 01201853 \\
+}
+
+%%% / / / %%%
+
+\renewcommand{\maketitle}{
+\thispagestyle{empty}
+\begin{minipage}{3.5in}
+\includegraphics{ugent.png}
+\end{minipage}
+\hfill
+\begin{minipage}{3in}
+\begin{flushright}
+\author
+\bigskip
+\textbf{\today}
+\end{flushright}
+\end{minipage}
+\vspace{5em}
+\begin{center}
+\Huge{\title}
+\end{center}}
+
+\begin{document}
+\global\emergencystretch = .3\hsize
+
+%%% INLEIDEND %%%
+\nroman
+\maketitle
+
+\tableofcontents
+\newpage
+
+
+%%% HOOFDSTUKKEN %%%
+%%%%%%%%%%%%%\input{algemeen}
+\newpage
+\narabic
+
+%%%%%%%%%%\chapter{Kennisleer bij Protagoras en de sofisten.}
+
+
+\end{document}
