@@ -9,6 +9,11 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <string.h>
+
 #include "constants.h"
+#include "huffman.h"
+
+typedef void (*FunctionPointer)(void);
 
 #endif //PROJECT_MAIN_H

@@ -85,6 +85,18 @@
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/constants.h">
 			<Option target="project"/>
 		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/input.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/input.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.c">
 			<Option target="project"/>
 		</Unit>

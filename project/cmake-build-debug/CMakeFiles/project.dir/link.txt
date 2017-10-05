@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/project.dir/main.c.o  -o project 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/project.dir/main.c.o CMakeFiles/project.dir/huffman.c.o CMakeFiles/project.dir/input.c.o  -o project 

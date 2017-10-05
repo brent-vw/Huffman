@@ -123,6 +123,60 @@ project/fast:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
 .PHONY : project/fast
 
+huffman.o: huffman.c.o
+
+.PHONY : huffman.o
+
+# target to build an object file
+huffman.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.o
+.PHONY : huffman.c.o
+
+huffman.i: huffman.c.i
+
+.PHONY : huffman.i
+
+# target to preprocess a source file
+huffman.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.i
+.PHONY : huffman.c.i
+
+huffman.s: huffman.c.s
+
+.PHONY : huffman.s
+
+# target to generate assembly for a file
+huffman.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.s
+.PHONY : huffman.c.s
+
+input.o: input.c.o
+
+.PHONY : input.o
+
+# target to build an object file
+input.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.o
+.PHONY : input.c.o
+
+input.i: input.c.i
+
+.PHONY : input.i
+
+# target to preprocess a source file
+input.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.i
+.PHONY : input.c.i
+
+input.s: input.c.s
+
+.PHONY : input.s
+
+# target to generate assembly for a file
+input.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.s
+.PHONY : input.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project"
+	@echo "... huffman.o"
+	@echo "... huffman.i"
+	@echo "... huffman.s"
+	@echo "... input.o"
+	@echo "... input.i"
+	@echo "... input.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
