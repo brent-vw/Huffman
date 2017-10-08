@@ -1,5 +1,5 @@
 #include "main.h"
-#include "input.h"
+#include "datastructures/input.h"
 
 int main(int argc, char* argv[]) {
     int opt;

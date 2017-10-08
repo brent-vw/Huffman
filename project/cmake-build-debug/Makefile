@@ -123,59 +123,113 @@ project/fast:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
 .PHONY : project/fast
 
-huffman.o: huffman.c.o
+datastructures/bit_operations.o: datastructures/bit_operations.c.o
 
-.PHONY : huffman.o
-
-# target to build an object file
-huffman.c.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.o
-.PHONY : huffman.c.o
-
-huffman.i: huffman.c.i
-
-.PHONY : huffman.i
-
-# target to preprocess a source file
-huffman.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.i
-.PHONY : huffman.c.i
-
-huffman.s: huffman.c.s
-
-.PHONY : huffman.s
-
-# target to generate assembly for a file
-huffman.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.s
-.PHONY : huffman.c.s
-
-input.o: input.c.o
-
-.PHONY : input.o
+.PHONY : datastructures/bit_operations.o
 
 # target to build an object file
-input.c.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.o
-.PHONY : input.c.o
+datastructures/bit_operations.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.o
+.PHONY : datastructures/bit_operations.c.o
 
-input.i: input.c.i
+datastructures/bit_operations.i: datastructures/bit_operations.c.i
 
-.PHONY : input.i
+.PHONY : datastructures/bit_operations.i
 
 # target to preprocess a source file
-input.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.i
-.PHONY : input.c.i
+datastructures/bit_operations.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.i
+.PHONY : datastructures/bit_operations.c.i
 
-input.s: input.c.s
+datastructures/bit_operations.s: datastructures/bit_operations.c.s
 
-.PHONY : input.s
+.PHONY : datastructures/bit_operations.s
 
 # target to generate assembly for a file
-input.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.s
-.PHONY : input.c.s
+datastructures/bit_operations.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.s
+.PHONY : datastructures/bit_operations.c.s
+
+datastructures/input.o: datastructures/input.c.o
+
+.PHONY : datastructures/input.o
+
+# target to build an object file
+datastructures/input.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/input.c.o
+.PHONY : datastructures/input.c.o
+
+datastructures/input.i: datastructures/input.c.i
+
+.PHONY : datastructures/input.i
+
+# target to preprocess a source file
+datastructures/input.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/input.c.i
+.PHONY : datastructures/input.c.i
+
+datastructures/input.s: datastructures/input.c.s
+
+.PHONY : datastructures/input.s
+
+# target to generate assembly for a file
+datastructures/input.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/input.c.s
+.PHONY : datastructures/input.c.s
+
+datastructures/stack.o: datastructures/stack.c.o
+
+.PHONY : datastructures/stack.o
+
+# target to build an object file
+datastructures/stack.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/stack.c.o
+.PHONY : datastructures/stack.c.o
+
+datastructures/stack.i: datastructures/stack.c.i
+
+.PHONY : datastructures/stack.i
+
+# target to preprocess a source file
+datastructures/stack.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/stack.c.i
+.PHONY : datastructures/stack.c.i
+
+datastructures/stack.s: datastructures/stack.c.s
+
+.PHONY : datastructures/stack.s
+
+# target to generate assembly for a file
+datastructures/stack.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/stack.c.s
+.PHONY : datastructures/stack.c.s
+
+huffman/huffman.o: huffman/huffman.c.o
+
+.PHONY : huffman/huffman.o
+
+# target to build an object file
+huffman/huffman.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman/huffman.c.o
+.PHONY : huffman/huffman.c.o
+
+huffman/huffman.i: huffman/huffman.c.i
+
+.PHONY : huffman/huffman.i
+
+# target to preprocess a source file
+huffman/huffman.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman/huffman.c.i
+.PHONY : huffman/huffman.c.i
+
+huffman/huffman.s: huffman/huffman.c.s
+
+.PHONY : huffman/huffman.s
+
+# target to generate assembly for a file
+huffman/huffman.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman/huffman.c.s
+.PHONY : huffman/huffman.c.s
 
 main.o: main.c.o
 
@@ -213,12 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project"
-	@echo "... huffman.o"
-	@echo "... huffman.i"
-	@echo "... huffman.s"
-	@echo "... input.o"
-	@echo "... input.i"
-	@echo "... input.s"
+	@echo "... datastructures/bit_operations.o"
+	@echo "... datastructures/bit_operations.i"
+	@echo "... datastructures/bit_operations.s"
+	@echo "... datastructures/input.o"
+	@echo "... datastructures/input.i"
+	@echo "... datastructures/input.s"
+	@echo "... datastructures/stack.o"
+	@echo "... datastructures/stack.i"
+	@echo "... datastructures/stack.s"
+	@echo "... huffman/huffman.o"
+	@echo "... huffman/huffman.i"
+	@echo "... huffman/huffman.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

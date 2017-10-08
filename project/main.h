@@ -4,7 +4,6 @@
 
 #ifndef PROJECT_MAIN_H
 #define PROJECT_MAIN_H
-
 #include <stdio.h>
 #include <unistd.h>
 #include <stdbool.h>
@@ -12,7 +11,8 @@
 #include <string.h>
 
 #include "constants.h"
-#include "huffman.h"
+#include "huffman/huffman.h"
+
 
 typedef void (*FunctionPointer)(void);
 

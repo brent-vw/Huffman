@@ -81,69 +81,121 @@ CMakeFiles/project.dir/main.c.o.provides: CMakeFiles/project.dir/main.c.o.requir
 CMakeFiles/project.dir/main.c.o.provides.build: CMakeFiles/project.dir/main.c.o
 
 
-CMakeFiles/project.dir/huffman.c.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/huffman.c.o: ../huffman.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/project.dir/huffman.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/huffman.c.o   -c /Users/brentvw/Projects/ugent/da3/project/huffman.c
+CMakeFiles/project.dir/huffman/huffman.c.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/huffman/huffman.c.o: ../huffman/huffman.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/project.dir/huffman/huffman.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/huffman/huffman.c.o   -c /Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c
 
-CMakeFiles/project.dir/huffman.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/huffman.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/brentvw/Projects/ugent/da3/project/huffman.c > CMakeFiles/project.dir/huffman.c.i
+CMakeFiles/project.dir/huffman/huffman.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/huffman/huffman.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c > CMakeFiles/project.dir/huffman/huffman.c.i
 
-CMakeFiles/project.dir/huffman.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/huffman.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/brentvw/Projects/ugent/da3/project/huffman.c -o CMakeFiles/project.dir/huffman.c.s
+CMakeFiles/project.dir/huffman/huffman.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/huffman/huffman.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c -o CMakeFiles/project.dir/huffman/huffman.c.s
 
-CMakeFiles/project.dir/huffman.c.o.requires:
+CMakeFiles/project.dir/huffman/huffman.c.o.requires:
 
-.PHONY : CMakeFiles/project.dir/huffman.c.o.requires
+.PHONY : CMakeFiles/project.dir/huffman/huffman.c.o.requires
 
-CMakeFiles/project.dir/huffman.c.o.provides: CMakeFiles/project.dir/huffman.c.o.requires
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman.c.o.provides.build
-.PHONY : CMakeFiles/project.dir/huffman.c.o.provides
+CMakeFiles/project.dir/huffman/huffman.c.o.provides: CMakeFiles/project.dir/huffman/huffman.c.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/huffman/huffman.c.o.provides.build
+.PHONY : CMakeFiles/project.dir/huffman/huffman.c.o.provides
 
-CMakeFiles/project.dir/huffman.c.o.provides.build: CMakeFiles/project.dir/huffman.c.o
+CMakeFiles/project.dir/huffman/huffman.c.o.provides.build: CMakeFiles/project.dir/huffman/huffman.c.o
 
 
-CMakeFiles/project.dir/input.c.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/input.c.o: ../input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/project.dir/input.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/input.c.o   -c /Users/brentvw/Projects/ugent/da3/project/input.c
+CMakeFiles/project.dir/datastructures/input.c.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/datastructures/input.c.o: ../datastructures/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/project.dir/datastructures/input.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/datastructures/input.c.o   -c /Users/brentvw/Projects/ugent/da3/project/datastructures/input.c
 
-CMakeFiles/project.dir/input.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/input.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/brentvw/Projects/ugent/da3/project/input.c > CMakeFiles/project.dir/input.c.i
+CMakeFiles/project.dir/datastructures/input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/datastructures/input.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/brentvw/Projects/ugent/da3/project/datastructures/input.c > CMakeFiles/project.dir/datastructures/input.c.i
 
-CMakeFiles/project.dir/input.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/input.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/brentvw/Projects/ugent/da3/project/input.c -o CMakeFiles/project.dir/input.c.s
+CMakeFiles/project.dir/datastructures/input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/datastructures/input.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/brentvw/Projects/ugent/da3/project/datastructures/input.c -o CMakeFiles/project.dir/datastructures/input.c.s
 
-CMakeFiles/project.dir/input.c.o.requires:
+CMakeFiles/project.dir/datastructures/input.c.o.requires:
 
-.PHONY : CMakeFiles/project.dir/input.c.o.requires
+.PHONY : CMakeFiles/project.dir/datastructures/input.c.o.requires
 
-CMakeFiles/project.dir/input.c.o.provides: CMakeFiles/project.dir/input.c.o.requires
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/input.c.o.provides.build
-.PHONY : CMakeFiles/project.dir/input.c.o.provides
+CMakeFiles/project.dir/datastructures/input.c.o.provides: CMakeFiles/project.dir/datastructures/input.c.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/input.c.o.provides.build
+.PHONY : CMakeFiles/project.dir/datastructures/input.c.o.provides
 
-CMakeFiles/project.dir/input.c.o.provides.build: CMakeFiles/project.dir/input.c.o
+CMakeFiles/project.dir/datastructures/input.c.o.provides.build: CMakeFiles/project.dir/datastructures/input.c.o
+
+
+CMakeFiles/project.dir/datastructures/stack.c.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/datastructures/stack.c.o: ../datastructures/stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/project.dir/datastructures/stack.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/datastructures/stack.c.o   -c /Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c
+
+CMakeFiles/project.dir/datastructures/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/datastructures/stack.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c > CMakeFiles/project.dir/datastructures/stack.c.i
+
+CMakeFiles/project.dir/datastructures/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/datastructures/stack.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c -o CMakeFiles/project.dir/datastructures/stack.c.s
+
+CMakeFiles/project.dir/datastructures/stack.c.o.requires:
+
+.PHONY : CMakeFiles/project.dir/datastructures/stack.c.o.requires
+
+CMakeFiles/project.dir/datastructures/stack.c.o.provides: CMakeFiles/project.dir/datastructures/stack.c.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/stack.c.o.provides.build
+.PHONY : CMakeFiles/project.dir/datastructures/stack.c.o.provides
+
+CMakeFiles/project.dir/datastructures/stack.c.o.provides.build: CMakeFiles/project.dir/datastructures/stack.c.o
+
+
+CMakeFiles/project.dir/datastructures/bit_operations.c.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/datastructures/bit_operations.c.o: ../datastructures/bit_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/project.dir/datastructures/bit_operations.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/datastructures/bit_operations.c.o   -c /Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.c
+
+CMakeFiles/project.dir/datastructures/bit_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/datastructures/bit_operations.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.c > CMakeFiles/project.dir/datastructures/bit_operations.c.i
+
+CMakeFiles/project.dir/datastructures/bit_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/datastructures/bit_operations.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.c -o CMakeFiles/project.dir/datastructures/bit_operations.c.s
+
+CMakeFiles/project.dir/datastructures/bit_operations.c.o.requires:
+
+.PHONY : CMakeFiles/project.dir/datastructures/bit_operations.c.o.requires
+
+CMakeFiles/project.dir/datastructures/bit_operations.c.o.provides: CMakeFiles/project.dir/datastructures/bit_operations.c.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.o.provides.build
+.PHONY : CMakeFiles/project.dir/datastructures/bit_operations.c.o.provides
+
+CMakeFiles/project.dir/datastructures/bit_operations.c.o.provides.build: CMakeFiles/project.dir/datastructures/bit_operations.c.o
 
 
 # Object files for target project
 project_OBJECTS = \
 "CMakeFiles/project.dir/main.c.o" \
-"CMakeFiles/project.dir/huffman.c.o" \
-"CMakeFiles/project.dir/input.c.o"
+"CMakeFiles/project.dir/huffman/huffman.c.o" \
+"CMakeFiles/project.dir/datastructures/input.c.o" \
+"CMakeFiles/project.dir/datastructures/stack.c.o" \
+"CMakeFiles/project.dir/datastructures/bit_operations.c.o"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
 project: CMakeFiles/project.dir/main.c.o
-project: CMakeFiles/project.dir/huffman.c.o
-project: CMakeFiles/project.dir/input.c.o
+project: CMakeFiles/project.dir/huffman/huffman.c.o
+project: CMakeFiles/project.dir/datastructures/input.c.o
+project: CMakeFiles/project.dir/datastructures/stack.c.o
+project: CMakeFiles/project.dir/datastructures/bit_operations.c.o
 project: CMakeFiles/project.dir/build.make
 project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +204,10 @@ CMakeFiles/project.dir/build: project
 .PHONY : CMakeFiles/project.dir/build
 
 CMakeFiles/project.dir/requires: CMakeFiles/project.dir/main.c.o.requires
-CMakeFiles/project.dir/requires: CMakeFiles/project.dir/huffman.c.o.requires
-CMakeFiles/project.dir/requires: CMakeFiles/project.dir/input.c.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/huffman/huffman.c.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/datastructures/input.c.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/datastructures/stack.c.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/datastructures/bit_operations.c.o.requires
 
 .PHONY : CMakeFiles/project.dir/requires
 

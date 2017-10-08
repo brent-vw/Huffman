@@ -85,16 +85,31 @@
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/constants.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/input.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/input.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/input.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.c">
