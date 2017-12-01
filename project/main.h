@@ -9,9 +9,15 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#include <getopt.h>
 
 #include "constants.h"
+
 #include "huffman/huffman.h"
+#include "adaptive/adaptive.h"
+#include "sliding/sliding.h"
+#include "twopass/twopass.h"
+#include "block/block.h"
 
 
 typedef void (*FunctionPointer)(void);

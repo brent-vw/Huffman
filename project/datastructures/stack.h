@@ -4,11 +4,9 @@
 
 #ifndef PROJECT_STACK_H
 #define PROJECT_STACK_H
-#include <stdlib.h>
-#include <stdbool.h>
-#include <stdio.h>
 
 #include "structs.h"
+#include "input.h"
 
 stack* allocate_stack(size_t);
 void free_stack(stack*);
@@ -20,5 +18,7 @@ huff_node* pop(stack*);
 
 bool isEmpty(stack*);
 bool isFull(stack*);
+
+int build_stack(input* in, stack* stack);
 
 #endif //PROJECT_STACK_H

@@ -1,12 +1,11 @@
 #include "main.h"
-#include "datastructures/input.h"
 
 int main(int argc, char* argv[]) {
     int opt;
     int algo_num = 0;
     bool decode = false, encode = false, algo_picked = false;
-    FunctionPointer encoders[] = {&huffman_encode};
-    FunctionPointer decoders[] = {&huffman_decode};
+    FunctionPointer encoders[] = {&huffman_encode, &adaptive_encode, &sliding_encode, &two_pass_encode, &block_encode};
+    FunctionPointer decoders[] = {&huffman_decode, &adaptive_decode, &sliding_decode, &two_pass_decode, &block_decode};
 
     //Parse options
     while((opt = getopt(argc, argv, "t:cd")) != -1){
@@ -39,6 +38,8 @@ int main(int argc, char* argv[]) {
         return INCORRECT_OPTS;
     } else if(encode) { //call the algorithm
         encoders[algo_num]();
+    } else {
+        decoders[algo_num]();
     }
 
 

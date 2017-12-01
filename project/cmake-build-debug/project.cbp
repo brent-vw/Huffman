@@ -82,19 +82,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/decode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/encode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/block.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/block.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/decode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/encode.c">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/constants.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/input.c">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c">
@@ -116,6 +149,30 @@
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/decode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/encode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/decode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/encode.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/CMakeLists.txt">

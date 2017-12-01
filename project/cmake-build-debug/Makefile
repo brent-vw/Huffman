@@ -123,32 +123,194 @@ project/fast:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
 .PHONY : project/fast
 
-datastructures/bit_operations.o: datastructures/bit_operations.c.o
+adaptive/adaptive.o: adaptive/adaptive.c.o
 
-.PHONY : datastructures/bit_operations.o
+.PHONY : adaptive/adaptive.o
 
 # target to build an object file
-datastructures/bit_operations.c.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.o
-.PHONY : datastructures/bit_operations.c.o
+adaptive/adaptive.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/adaptive.c.o
+.PHONY : adaptive/adaptive.c.o
 
-datastructures/bit_operations.i: datastructures/bit_operations.c.i
+adaptive/adaptive.i: adaptive/adaptive.c.i
 
-.PHONY : datastructures/bit_operations.i
+.PHONY : adaptive/adaptive.i
 
 # target to preprocess a source file
-datastructures/bit_operations.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.i
-.PHONY : datastructures/bit_operations.c.i
+adaptive/adaptive.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/adaptive.c.i
+.PHONY : adaptive/adaptive.c.i
 
-datastructures/bit_operations.s: datastructures/bit_operations.c.s
+adaptive/adaptive.s: adaptive/adaptive.c.s
 
-.PHONY : datastructures/bit_operations.s
+.PHONY : adaptive/adaptive.s
 
 # target to generate assembly for a file
-datastructures/bit_operations.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/bit_operations.c.s
-.PHONY : datastructures/bit_operations.c.s
+adaptive/adaptive.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/adaptive.c.s
+.PHONY : adaptive/adaptive.c.s
+
+adaptive/decode.o: adaptive/decode.c.o
+
+.PHONY : adaptive/decode.o
+
+# target to build an object file
+adaptive/decode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/decode.c.o
+.PHONY : adaptive/decode.c.o
+
+adaptive/decode.i: adaptive/decode.c.i
+
+.PHONY : adaptive/decode.i
+
+# target to preprocess a source file
+adaptive/decode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/decode.c.i
+.PHONY : adaptive/decode.c.i
+
+adaptive/decode.s: adaptive/decode.c.s
+
+.PHONY : adaptive/decode.s
+
+# target to generate assembly for a file
+adaptive/decode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/decode.c.s
+.PHONY : adaptive/decode.c.s
+
+adaptive/encode.o: adaptive/encode.c.o
+
+.PHONY : adaptive/encode.o
+
+# target to build an object file
+adaptive/encode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/encode.c.o
+.PHONY : adaptive/encode.c.o
+
+adaptive/encode.i: adaptive/encode.c.i
+
+.PHONY : adaptive/encode.i
+
+# target to preprocess a source file
+adaptive/encode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/encode.c.i
+.PHONY : adaptive/encode.c.i
+
+adaptive/encode.s: adaptive/encode.c.s
+
+.PHONY : adaptive/encode.s
+
+# target to generate assembly for a file
+adaptive/encode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/adaptive/encode.c.s
+.PHONY : adaptive/encode.c.s
+
+block/block.o: block/block.c.o
+
+.PHONY : block/block.o
+
+# target to build an object file
+block/block.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/block.c.o
+.PHONY : block/block.c.o
+
+block/block.i: block/block.c.i
+
+.PHONY : block/block.i
+
+# target to preprocess a source file
+block/block.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/block.c.i
+.PHONY : block/block.c.i
+
+block/block.s: block/block.c.s
+
+.PHONY : block/block.s
+
+# target to generate assembly for a file
+block/block.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/block.c.s
+.PHONY : block/block.c.s
+
+block/decode.o: block/decode.c.o
+
+.PHONY : block/decode.o
+
+# target to build an object file
+block/decode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/decode.c.o
+.PHONY : block/decode.c.o
+
+block/decode.i: block/decode.c.i
+
+.PHONY : block/decode.i
+
+# target to preprocess a source file
+block/decode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/decode.c.i
+.PHONY : block/decode.c.i
+
+block/decode.s: block/decode.c.s
+
+.PHONY : block/decode.s
+
+# target to generate assembly for a file
+block/decode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/decode.c.s
+.PHONY : block/decode.c.s
+
+block/encode.o: block/encode.c.o
+
+.PHONY : block/encode.o
+
+# target to build an object file
+block/encode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/encode.c.o
+.PHONY : block/encode.c.o
+
+block/encode.i: block/encode.c.i
+
+.PHONY : block/encode.i
+
+# target to preprocess a source file
+block/encode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/encode.c.i
+.PHONY : block/encode.c.i
+
+block/encode.s: block/encode.c.s
+
+.PHONY : block/encode.s
+
+# target to generate assembly for a file
+block/encode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/block/encode.c.s
+.PHONY : block/encode.c.s
+
+datastructures/huff_node.o: datastructures/huff_node.c.o
+
+.PHONY : datastructures/huff_node.o
+
+# target to build an object file
+datastructures/huff_node.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/huff_node.c.o
+.PHONY : datastructures/huff_node.c.o
+
+datastructures/huff_node.i: datastructures/huff_node.c.i
+
+.PHONY : datastructures/huff_node.i
+
+# target to preprocess a source file
+datastructures/huff_node.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/huff_node.c.i
+.PHONY : datastructures/huff_node.c.i
+
+datastructures/huff_node.s: datastructures/huff_node.c.s
+
+.PHONY : datastructures/huff_node.s
+
+# target to generate assembly for a file
+datastructures/huff_node.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/huff_node.c.s
+.PHONY : datastructures/huff_node.c.s
 
 datastructures/input.o: datastructures/input.c.o
 
@@ -176,6 +338,33 @@ datastructures/input.s: datastructures/input.c.s
 datastructures/input.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/input.c.s
 .PHONY : datastructures/input.c.s
+
+datastructures/order_list.o: datastructures/order_list.c.o
+
+.PHONY : datastructures/order_list.o
+
+# target to build an object file
+datastructures/order_list.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/order_list.c.o
+.PHONY : datastructures/order_list.c.o
+
+datastructures/order_list.i: datastructures/order_list.c.i
+
+.PHONY : datastructures/order_list.i
+
+# target to preprocess a source file
+datastructures/order_list.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/order_list.c.i
+.PHONY : datastructures/order_list.c.i
+
+datastructures/order_list.s: datastructures/order_list.c.s
+
+.PHONY : datastructures/order_list.s
+
+# target to generate assembly for a file
+datastructures/order_list.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/datastructures/order_list.c.s
+.PHONY : datastructures/order_list.c.s
 
 datastructures/stack.o: datastructures/stack.c.o
 
@@ -258,6 +447,168 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.c.s
 .PHONY : main.c.s
 
+sliding/decode.o: sliding/decode.c.o
+
+.PHONY : sliding/decode.o
+
+# target to build an object file
+sliding/decode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/decode.c.o
+.PHONY : sliding/decode.c.o
+
+sliding/decode.i: sliding/decode.c.i
+
+.PHONY : sliding/decode.i
+
+# target to preprocess a source file
+sliding/decode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/decode.c.i
+.PHONY : sliding/decode.c.i
+
+sliding/decode.s: sliding/decode.c.s
+
+.PHONY : sliding/decode.s
+
+# target to generate assembly for a file
+sliding/decode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/decode.c.s
+.PHONY : sliding/decode.c.s
+
+sliding/encode.o: sliding/encode.c.o
+
+.PHONY : sliding/encode.o
+
+# target to build an object file
+sliding/encode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/encode.c.o
+.PHONY : sliding/encode.c.o
+
+sliding/encode.i: sliding/encode.c.i
+
+.PHONY : sliding/encode.i
+
+# target to preprocess a source file
+sliding/encode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/encode.c.i
+.PHONY : sliding/encode.c.i
+
+sliding/encode.s: sliding/encode.c.s
+
+.PHONY : sliding/encode.s
+
+# target to generate assembly for a file
+sliding/encode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/encode.c.s
+.PHONY : sliding/encode.c.s
+
+sliding/sliding.o: sliding/sliding.c.o
+
+.PHONY : sliding/sliding.o
+
+# target to build an object file
+sliding/sliding.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/sliding.c.o
+.PHONY : sliding/sliding.c.o
+
+sliding/sliding.i: sliding/sliding.c.i
+
+.PHONY : sliding/sliding.i
+
+# target to preprocess a source file
+sliding/sliding.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/sliding.c.i
+.PHONY : sliding/sliding.c.i
+
+sliding/sliding.s: sliding/sliding.c.s
+
+.PHONY : sliding/sliding.s
+
+# target to generate assembly for a file
+sliding/sliding.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sliding/sliding.c.s
+.PHONY : sliding/sliding.c.s
+
+twopass/decode.o: twopass/decode.c.o
+
+.PHONY : twopass/decode.o
+
+# target to build an object file
+twopass/decode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/decode.c.o
+.PHONY : twopass/decode.c.o
+
+twopass/decode.i: twopass/decode.c.i
+
+.PHONY : twopass/decode.i
+
+# target to preprocess a source file
+twopass/decode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/decode.c.i
+.PHONY : twopass/decode.c.i
+
+twopass/decode.s: twopass/decode.c.s
+
+.PHONY : twopass/decode.s
+
+# target to generate assembly for a file
+twopass/decode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/decode.c.s
+.PHONY : twopass/decode.c.s
+
+twopass/encode.o: twopass/encode.c.o
+
+.PHONY : twopass/encode.o
+
+# target to build an object file
+twopass/encode.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/encode.c.o
+.PHONY : twopass/encode.c.o
+
+twopass/encode.i: twopass/encode.c.i
+
+.PHONY : twopass/encode.i
+
+# target to preprocess a source file
+twopass/encode.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/encode.c.i
+.PHONY : twopass/encode.c.i
+
+twopass/encode.s: twopass/encode.c.s
+
+.PHONY : twopass/encode.s
+
+# target to generate assembly for a file
+twopass/encode.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/encode.c.s
+.PHONY : twopass/encode.c.s
+
+twopass/twopass.o: twopass/twopass.c.o
+
+.PHONY : twopass/twopass.o
+
+# target to build an object file
+twopass/twopass.c.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/twopass.c.o
+.PHONY : twopass/twopass.c.o
+
+twopass/twopass.i: twopass/twopass.c.i
+
+.PHONY : twopass/twopass.i
+
+# target to preprocess a source file
+twopass/twopass.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/twopass.c.i
+.PHONY : twopass/twopass.c.i
+
+twopass/twopass.s: twopass/twopass.c.s
+
+.PHONY : twopass/twopass.s
+
+# target to generate assembly for a file
+twopass/twopass.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/twopass/twopass.c.s
+.PHONY : twopass/twopass.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,12 +618,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project"
-	@echo "... datastructures/bit_operations.o"
-	@echo "... datastructures/bit_operations.i"
-	@echo "... datastructures/bit_operations.s"
+	@echo "... adaptive/adaptive.o"
+	@echo "... adaptive/adaptive.i"
+	@echo "... adaptive/adaptive.s"
+	@echo "... adaptive/decode.o"
+	@echo "... adaptive/decode.i"
+	@echo "... adaptive/decode.s"
+	@echo "... adaptive/encode.o"
+	@echo "... adaptive/encode.i"
+	@echo "... adaptive/encode.s"
+	@echo "... block/block.o"
+	@echo "... block/block.i"
+	@echo "... block/block.s"
+	@echo "... block/decode.o"
+	@echo "... block/decode.i"
+	@echo "... block/decode.s"
+	@echo "... block/encode.o"
+	@echo "... block/encode.i"
+	@echo "... block/encode.s"
+	@echo "... datastructures/huff_node.o"
+	@echo "... datastructures/huff_node.i"
+	@echo "... datastructures/huff_node.s"
 	@echo "... datastructures/input.o"
 	@echo "... datastructures/input.i"
 	@echo "... datastructures/input.s"
+	@echo "... datastructures/order_list.o"
+	@echo "... datastructures/order_list.i"
+	@echo "... datastructures/order_list.s"
 	@echo "... datastructures/stack.o"
 	@echo "... datastructures/stack.i"
 	@echo "... datastructures/stack.s"
@@ -282,6 +654,24 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sliding/decode.o"
+	@echo "... sliding/decode.i"
+	@echo "... sliding/decode.s"
+	@echo "... sliding/encode.o"
+	@echo "... sliding/encode.i"
+	@echo "... sliding/encode.s"
+	@echo "... sliding/sliding.o"
+	@echo "... sliding/sliding.i"
+	@echo "... sliding/sliding.s"
+	@echo "... twopass/decode.o"
+	@echo "... twopass/decode.i"
+	@echo "... twopass/decode.s"
+	@echo "... twopass/encode.o"
+	@echo "... twopass/encode.i"
+	@echo "... twopass/encode.s"
+	@echo "... twopass/twopass.o"
+	@echo "... twopass/twopass.i"
+	@echo "... twopass/twopass.s"
 .PHONY : help
 
 

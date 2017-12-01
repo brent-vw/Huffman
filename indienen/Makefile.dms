@@ -1,0 +1,28 @@
+#
+# Dit is de Makefile die door Indianio wordt gebruikt.
+# Test zeker op helios
+#
+# Plaats deze Makefile in de hoofdmap van jou project. En voer het commando
+# `make` uit. De executable `huffman` komt daar dan ook te staan.
+#
+#     echo "DA3" | ./huffman -c -t 1 | ./huffman -d -t 1
+#
+CFLAGS=-std=c99
+
+#het bestand sources bevat bijv
+#huffman:file1.c file2.c file3.c
+OBJFILES=$(patsubst %,src/%,$(patsubst %.c,%.o,$(shell sed 's/^[^:]*: *//;s/\s\+/ /g' sources)))
+
+
+.PHONY: clean huffman
+default: sources huffman
+clean:
+	${RM} huffman
+	find src -iname "*.o" -exec ${RM} "{}" ";"
+
+
+huffman: $(OBJFILES)
+	gcc $(CFLAGS) $^ -lm -o $@
+
+%.o: %.c
+	gcc $(CFLAGS) -o $@ -c $<

@@ -4,22 +4,18 @@
 
 #ifndef PROJECT_INPUT_H
 #define PROJECT_INPUT_H
-#include <stddef.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
 
 #include "structs.h"
-#include "../constants.h"
 
-input* read_input();
+input *read_input(bool);
 input* allocate_input();
 void free_input(input*);
 
-void flush_buffer(input*, int, int*);
+void flush_buffer(input*, size_t , const char*, bool);
 
-void increment_node(int, input*);
-node* allocate_node(int, input*);
+void increment_node(char , input*);
+node* allocate_node(char, input*);
+node* _allocate_node(char);
 void free_nodes(node*);
 void move_node(node*);
 void reverse_nodes(input*);
