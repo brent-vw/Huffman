@@ -4,8 +4,6 @@
 #include "sliding.h"
 
 void sliding_encode(){
-    FILE* fp = stdout;
-
     size_t max_size =  1 << (sizeof(unsigned char)*8);
     //init boom
     huff_node* tree = new_node();
@@ -37,7 +35,7 @@ void sliding_encode(){
         //nng
         if(order_nodes[index]==NULL){
             //write nng and the node
-            write_new(buffer, &buffer_written, nng_node->node, c, fp);
+            write_new(buffer, &buffer_written, nng_node->node, c, stdout);
 
 
             //make new node
@@ -45,7 +43,7 @@ void sliding_encode(){
         } else {
 
             //write code
-            write_code(buffer, &buffer_written, order_nodes[index]->node, fp);
+            write_code(buffer, &buffer_written, order_nodes[index]->node, stdout);
 
             //update tree
             update(order_nodes[index], order_nodes, nng_node);
@@ -55,14 +53,13 @@ void sliding_encode(){
     }
 
     //schrijf nng uit om het einde aan te geven
-    write_code(buffer, &buffer_written, nng_node->node, fp);
+    write_code(buffer, &buffer_written, nng_node->node, stdout);
 
-    //vul de buffer
+    //vul de f
     while (buffer_written>0){
-        write_bit(buffer, &buffer_written, '0', fp);
+        write_bit(buffer, &buffer_written, '0', stdout);
     }
 
-    //geef alles vrij
     while (tree->parent){
         tree = tree->parent;
     }

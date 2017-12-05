@@ -37,6 +37,7 @@ int main(int argc, char* argv[]) {
     if((decode&&encode)||(!encode&&!decode)){
         return INCORRECT_OPTS;
     } else if(encode) { //call the algorithm
+        freopen("/Users/brentvw/Projects/ugent/da3/experimenten/testbestanden/rockefeller.tiff", "rb", stdin);
         encoders[algo_num]();
     } else {
         decoders[algo_num]();

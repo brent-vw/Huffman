@@ -1,14 +1,18 @@
 #include "main.h"
 
+int WINDOW_SIZE = 256;
+int BLOCK_SIZE = 256;
+
 int main(int argc, char* argv[]) {
     int opt;
     int algo_num = 0;
+    int size = 256;
     bool decode = false, encode = false, algo_picked = false;
     FunctionPointer encoders[] = {&huffman_encode, &adaptive_encode, &sliding_encode, &two_pass_encode, &block_encode};
     FunctionPointer decoders[] = {&huffman_decode, &adaptive_decode, &sliding_decode, &two_pass_decode, &block_decode};
 
     //Parse options
-    while((opt = getopt(argc, argv, "t:cd")) != -1){
+    while((opt = getopt(argc, argv, "t:cds:")) != -1){
         switch(opt){
             case 't':
                 algo_num = (int) strtol(optarg, NULL, 10);
@@ -27,10 +31,16 @@ int main(int argc, char* argv[]) {
             case 'd':
                 decode = true;
                 break;
+            case 's':
+                size = (int) strtol(optarg, NULL, 10);
+                break;
             default:
                 return INCORRECT_OPTS;
         }
     }
+
+    BLOCK_SIZE = size;
+    WINDOW_SIZE = size;
 
     //Check options
     //encode and decode flags are not set, or both set

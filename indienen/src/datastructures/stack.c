@@ -143,5 +143,5 @@ int build_stack(input* in, stack* stack){
         push(stack, node);
     }
 
-    return max;
+    return max*2;
 }

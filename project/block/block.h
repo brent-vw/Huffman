@@ -4,7 +4,9 @@
 
 #ifndef PROJECT_BLOCK_H
 #define PROJECT_BLOCK_H
-#define BLOCK_SIZE 255;
+
+extern int BLOCK_SIZE;
+
 void block_decode();
 void block_encode();
 #endif //PROJECT_BLOCK_H
