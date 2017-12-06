@@ -10,7 +10,7 @@ from math import ceil, floor
 from tqdm import tqdm
 
 
-def join_args(program, alg_number, encode, size=0):
+def join_args(program, alg_number, encode, size=8192):
     alg_flag = '-t'
     encode_flag = '-c'
     decode_flag = '-d'
@@ -126,19 +126,35 @@ def encode_all():
 def build_sizes_graphs():
     folder = 'grafieken/ratios/'
     file_sizes = pandas.read_csv('file_sizes.csv')
+    file_sizes.sort_values(axis=0, by='Ratio', inplace=True)
 
-    for file in files:
-        current_sizes = file_sizes[file_sizes['File'].isin([file])]
-        highest = round(current_sizes['Ratio'].max(), 1, ceil)
-        lowest = round(current_sizes['Ratio'].min(), 1, floor)
+    avg_sizes = pandas.DataFrame(columns=["Algorithm", "File", "Size", "Ratio"])
 
-        plot = ggplot(aes(x='Algorithm', weight='Ratio'), data=current_sizes) + \
-               geom_bar(stat="identity", fill=bar_color, width=0.3) + \
+    for alg_name in names:
+        for type, name in [(True, 'Tekst'), (False, 'Binair')]:
+            alg = file_sizes[file_sizes['Algorithm'].isin([alg_name])]
+            if type:
+                mean = alg[alg['File'].str.contains('txt')]['Ratio'].mean()
+            else:
+                mean = alg[alg['File'].str.contains('(png)|(tiff)')]['Ratio'].mean()
+            series = pandas.Series([alg_name, name, 0, mean], index=["Algorithm", "File", "Size", "Ratio"])
+            avg_sizes = avg_sizes.append(series, ignore_index=True)
+
+    for alg in names:
+        mean = file_sizes[file_sizes['Algorithm'].isin([alg])]['Ratio'].mean()
+        series = pandas.Series([alg, 'Gemiddeld', 0, mean], index=["Algorithm", "File", "Size", "Ratio"])
+        avg_sizes = avg_sizes.append(series, ignore_index=True)
+
+    highest = round(avg_sizes['Ratio'].max(), 1, ceil)
+    lowest = round(avg_sizes['Ratio'].min(), 1, floor)
+
+    plot = ggplot(aes(x='Algorithm', weight='Ratio', fill='File'), data=avg_sizes) + \
+               geom_bar(stat="identity", position='dodge', color='black', width=.5) + \
                ylim(lowest, highest) + \
                ylab("Ratio (input/output)") + \
-               ggtitle("Compressieratio voor " + file + " (hoger is beter)")
+               ggtitle("Compressieratio (hoger is beter)")
 
-        plot.save(folder + file.split('.')[0] + '.pdf')
+    plot.save(folder + 'ratio.pdf')
 
 
 def sliding_size_graphs():
@@ -196,7 +212,7 @@ def compare_sizes(type, sizes=None):
     with tqdm(total=(len(files)*2*len(sizes)), ncols=100) as pbar:
         with open(names[type-1]+'_averages.csv', 'w') as block_averages_file:
             block_averages = csv.writer(block_averages_file)
-            block_averages.writerow(["size", "type" ,"Time (ms)", "Ratio"])
+            block_averages.writerow(["size", "type", "Time (ms)", "Ratio"])
             alg = type
             for size in sizes:
                 for file in files:
@@ -271,26 +287,35 @@ def build_opt_graph(name, readable_name=None, sizes=None):
 
     time = []
     ratio = []
+    types = []
+    newSizes = []
 
     for size in sizes:
-        time.append(float(window_sizes[window_sizes['size'].isin([size])][['Time (ms)']].mean()))
-        ratio.append(float(window_sizes[window_sizes['size'].isin([size])][['Ratio']].mean()))
+        bin_df = window_sizes[window_sizes['type'].isin(['binair'])]
+        tekst_df = window_sizes[window_sizes['type'].isin(['tekst'])]
 
-    df = pandas.DataFrame.from_records({'size': sizes, 'time': time, 'ratio': ratio})
+        for set, type in [(tekst_df, 'tekst'), (bin_df, 'binair')]:
+            time.append(float(set[set['size'].isin([size])][['Time (ms)']].mean()))
+            ratio.append(float(set[set['size'].isin([size])][['Ratio']].mean()))
+            types.append(type)
+            newSizes.append(size)
 
-    plot = ggplot(aes(x='size', weight='time', color='type'), data=df) + \
-           geom_bar(stat="identity", fill=bar_color, width=0.3) + \
+    df = pandas.DataFrame.from_records({'size': newSizes, 'type': types, 'time': time, 'ratio': ratio})
+
+    plot = ggplot(aes(x='size', weight='time', fill='type'), data=df) + \
+           geom_bar(stat="identity", position="dodge", width=0.3) + \
                ylab("Gemiddelde uitvoeringstijd (encode + decode)") + \
                xlab(readable_name+" size") + \
                ggtitle("Gemiddelde uitvoeringstijd voor verschillende "+readable_name+" sizes")
-    plot.show()
-
-    plot1 = ggplot(aes(x='size', weight='ratio', color='type'), data=df) + \
-           geom_bar(stat="identity", fill=bar_color, width=0.3) + \
+    plot.save(readable_name+'_avg_time.pdf')
+    # plot.show()
+    plot1 = ggplot(aes(x='size', weight='ratio', fill='type'), data=df) + \
+           geom_bar(stat="identity", position="dodge", width=0.3) + \
                ylab("Ratio (in_size/decoded_size)") + \
                xlab(readable_name+ " size") + \
                ggtitle("Gemiddelde ratio voor verschillende "+readable_name+" sizes")
-    plot1.show()
+    plot1.save(readable_name+'_avg_ratio.pdf')
+    # plot1.show()
 
 
 folder_name = 'testbestanden/'
@@ -304,10 +329,10 @@ bar_color = '#5cbae6'
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # delete_folders()
-
-encode_all()
+#
+# encode_all()
 build_sizes_graphs()
-build_times_graphs()
+# build_times_graphs()
 
 # block_sizes = [16, 128, 512, 1024, 2048, 8192, 16384, 32768]
 # window_sizes = [16, 128, 512, 1024, 2048, 8192, 16384, 32768]

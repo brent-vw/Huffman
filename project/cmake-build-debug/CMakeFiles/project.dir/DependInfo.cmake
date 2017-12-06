@@ -4,26 +4,26 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/adaptive/adaptive.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/adaptive/decode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/adaptive/decode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/adaptive/encode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/adaptive/encode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/block/block.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/block/block.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/block/decode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/block/decode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/block/encode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/block/encode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/huff_node.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/datastructures/input.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/input.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/order_list.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/stack.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/huffman/huffman.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/main.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/main.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/sliding/decode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/sliding/decode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/sliding/encode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/sliding/encode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/sliding/sliding.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/twopass/decode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/twopass/decode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/twopass/encode.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/twopass/encode.c.o"
-  "/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.c" "/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/CMakeFiles/project.dir/twopass/twopass.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/adaptive/adaptive.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/decode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/adaptive/decode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/encode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/adaptive/encode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/block/block.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/block/decode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/block/decode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/block/encode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/block/encode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/huff_node.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/input.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/order_list.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/datastructures/stack.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/huffman/huffman.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/main.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/main.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/decode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/sliding/decode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/encode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/sliding/encode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/sliding/sliding.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/decode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/twopass/decode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/encode.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/twopass/encode.c.o"
+  "/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.c" "/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/CMakeFiles/project.dir/twopass/twopass.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

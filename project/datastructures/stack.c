@@ -127,7 +127,7 @@ int build_stack(input* in, stack* stack){
         node->weight = current->weight;
 
         push(stack, node);
-        max = node->value > max ? node->value : max;
+        max = (unsigned char) node->value > max ? (unsigned char) node->value : max;
 
         current = current->next;
         counter++;
@@ -143,5 +143,5 @@ int build_stack(input* in, stack* stack){
         push(stack, node);
     }
 
-    return max*2;
+    return max;
 }

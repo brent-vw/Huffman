@@ -6,87 +6,87 @@
 
 #IncludeRegexTransform: 
 
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.c
 adaptive.h
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h
 
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h
 stdlib.h
 -
 ../datastructures/huff_node.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.h
 ../datastructures/bit_operations.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/bit_operations.h
 ../datastructures/order_list.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.h
 
-/Users/brentvw/Projects/ugent/da3/project/adaptive/decode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/decode.c
 adaptive.h
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h
 
-/Users/brentvw/Projects/ugent/da3/project/adaptive/encode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/encode.c
 adaptive.h
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h
 
-/Users/brentvw/Projects/ugent/da3/project/block/block.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.c
 block.h
-/Users/brentvw/Projects/ugent/da3/project/block/block.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.h
 
-/Users/brentvw/Projects/ugent/da3/project/block/block.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.h
 
-/Users/brentvw/Projects/ugent/da3/project/block/decode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/decode.c
 block.h
-/Users/brentvw/Projects/ugent/da3/project/block/block.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.h
 ../main.h
-/Users/brentvw/Projects/ugent/da3/project/main.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/main.h
 
-/Users/brentvw/Projects/ugent/da3/project/block/encode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/encode.c
 block.h
-/Users/brentvw/Projects/ugent/da3/project/block/block.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.h
 ../main.h
-/Users/brentvw/Projects/ugent/da3/project/main.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/main.h
 
-/Users/brentvw/Projects/ugent/da3/project/constants.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/constants.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/bit_operations.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.c
 huff_node.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.h
 structs.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/input.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.c
 stdbool.h
 -
 input.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.h
 structs.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.c
 order_list.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.h
 structs.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.c
 stack.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.h
 structs.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 input.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.h
 
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 stddef.h
 -
 stdlib.h
@@ -98,33 +98,33 @@ string.h
 stdbool.h
 -
 ../constants.h
-/Users/brentvw/Projects/ugent/da3/project/constants.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/constants.h
 
-/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.c
 huffman.h
-/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.h
 ../datastructures/order_list.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.h
 
-/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.h
 time.h
 -
 stdlib.h
 -
 ../datastructures/input.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.h
 ../datastructures/stack.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.h
 ../datastructures/bit_operations.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/bit_operations.h
 ../datastructures/huff_node.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.h
 
-/Users/brentvw/Projects/ugent/da3/project/main.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/main.c
 main.h
-/Users/brentvw/Projects/ugent/da3/project/main.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/main.h
 
-/Users/brentvw/Projects/ugent/da3/project/main.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/main.h
 stdio.h
 -
 unistd.h
@@ -138,53 +138,53 @@ string.h
 getopt.h
 -
 constants.h
-/Users/brentvw/Projects/ugent/da3/project/constants.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/constants.h
 huffman/huffman.h
-/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.h
 adaptive/adaptive.h
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h
 sliding/sliding.h
-/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.h
 twopass/twopass.h
-/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.h
 block/block.h
-/Users/brentvw/Projects/ugent/da3/project/block/block.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.h
 
-/Users/brentvw/Projects/ugent/da3/project/sliding/decode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/decode.c
 sliding.h
-/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.h
 
-/Users/brentvw/Projects/ugent/da3/project/sliding/encode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/encode.c
 sliding.h
-/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.h
 
-/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.c
 sliding.h
-/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.h
 
-/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.h
 ../adaptive/adaptive.h
-/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h
 
-/Users/brentvw/Projects/ugent/da3/project/twopass/decode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/decode.c
 twopass.h
-/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.h
 ../datastructures/structs.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 
-/Users/brentvw/Projects/ugent/da3/project/twopass/encode.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/encode.c
 twopass.h
-/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.h
 ../datastructures/structs.h
-/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h
 
-/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.c
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.c
 twopass.h
-/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.h
 
-/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.h
 ../huffman/huffman.h
-/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.h
 ../main.h
-/Users/brentvw/Projects/ugent/da3/project/main.h
+/home/brentvw/Projects/ugent/project-da3-huffman/project/main.h
 
