@@ -169,6 +169,8 @@ sympy-plots-for-*.tex/
 *.upa
 *.upb
 
+.idea/
+
 # pythontex
 *.pytxcode
 pythontex-files-*/

@@ -328,6 +328,7 @@ bar_color = '#5cbae6'
 #Clear console
 os.system('cls' if os.name == 'nt' else 'clear')
 
+<<<<<<< HEAD
 # delete_folders()
 #
 # encode_all()
@@ -340,3 +341,17 @@ build_sizes_graphs()
 # compare_sizes(4, sizes=block_sizes)
 # build_opt_graph(names[2], readable_name='window', sizes=window_sizes)
 # build_opt_graph(names[3], readable_name='block', sizes=block_sizes)
+=======
+delete_folders()
+
+# encode_all()
+# build_sizes_graphs()
+# build_times_graphs()
+
+block_sizes = [16, 128, 512, 1024, 2048, 8192, 16384, 32768]
+window_sizes = [16, 128, 512, 1024, 2048, 8192, 16384, 32768]
+compare_sizes(3, sizes=window_sizes)
+compare_sizes(4, sizes=block_sizes)
+build_opt_graph(names[2], readable_name='window', sizes=window_sizes)
+build_opt_graph(names[3], readable_name='block', sizes=block_sizes)
+>>>>>>> fb4baa98612ba95dc141ecf19a038637f03b35bb
