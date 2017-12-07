@@ -8,174 +8,174 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug"/>
+				<Option working_dir="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug"/>
+				<Option working_dir="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug"/>
+				<Option working_dir="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project">
-				<Option output="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug"/>
+				<Option output="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project/fast">
-				<Option output="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug"/>
+				<Option output="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brentvw/Projects/ugent/project-da3-huffman/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/brentvw/Projects/ugent/da3/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/adaptive.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/adaptive.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/decode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/decode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/adaptive/encode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/adaptive/encode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/block.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/block/block.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/block.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/block/decode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/decode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/block/encode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/block/encode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/constants.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/constants.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/bit_operations.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/bit_operations.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/huff_node.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/huff_node.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/input.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/input.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/input.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/order_list.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/order_list.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/stack.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/stack.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/datastructures/structs.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/datastructures/structs.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/huffman/huffman.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/huffman/huffman.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/main.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/main.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/main.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/decode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/decode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/encode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/encode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/sliding/sliding.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/sliding/sliding.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/decode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/decode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/encode.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/encode.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.c">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.c">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/twopass/twopass.h">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/twopass/twopass.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/home/brentvw/Projects/ugent/project-da3-huffman/project/CMakeLists.txt">
+		<Unit filename="/Users/brentvw/Projects/ugent/da3/project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

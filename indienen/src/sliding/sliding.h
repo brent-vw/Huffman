@@ -7,7 +7,7 @@
 
 #include "../adaptive/adaptive.h"
 
-#define WINDOW_SIZE 255;
+extern int WINDOW_SIZE;
 
 void sliding_encode();
 void sliding_decode();

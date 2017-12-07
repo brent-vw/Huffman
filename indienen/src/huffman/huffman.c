@@ -38,7 +38,7 @@ void _build_dictionary(code** dictionary, char* tree, huff_node* node, int lengt
         encoding->key = node->value;
         encoding->code_length = length;
 
-        dictionary[encoding->key] = encoding;
+        dictionary[(unsigned char)encoding->key] = encoding;
     } else {
         tree[length] = '0';
         _build_dictionary(dictionary, tree, node->left, length+1);
@@ -140,7 +140,7 @@ void huffman_encode(){
     memset(buff, '\0', max_bits);
     bits_written = 0;
     for (int i = 0; i < in->size; ++i) {
-        code* current = codes[in->content[i]];
+        code* current = codes[(unsigned char)in->content[i]];
         for (int j = 0; j < current->code_length; ++j) {
             char c = current->code[j];
             buff[bits_written++] = c;

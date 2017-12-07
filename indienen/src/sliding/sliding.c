@@ -80,7 +80,7 @@ bool onPath(huff_node* source, huff_node* destination){
  * als het nieuwe gewicht == 0 -> verwijder uit boom
  * herhaal voor ouder
  * @param node
- * @param nodes
+ * @parm nodes
  * @param nng
  */
 void downgrade(order_node* node, huff_node* destination, order_node** nodes, order_node* nng){
